@@ -78,8 +78,7 @@ a:hover {
     color: #fff;
 }
 img {
-    max-width: 100%;
-    height: auto;
+    object-fit: cover;
 }
 iframe {
     width: 100%;
@@ -343,9 +342,13 @@ input::-webkit-input-placeholder {
     min-width: 200px;
     transform: scaleY(0);
     transition: all 0.4s;
+    border-radius: 10px;
+-webkit-box-shadow: 10px 10px 130px -9px rgba(0,0,0,0.55);
+-moz-box-shadow: 10px 10px 130px -9px rgba(0,0,0,0.55);
+box-shadow: 10px 10px 130px -9px rgba(0,0,0,0.55);
 }
 .mainmenu li a.active, .mainmenu li a:hover {
-    color: #eb315a;
+    color: #32ef7f;
 }
 .header-right form {
     display: flex;
@@ -405,7 +408,19 @@ option {
     background-position: center;
     background-size: cover;
     overflow: hidden;
+    mix-blend-mode: hard-light;
 }
+
+.hero-area:after {
+    position: absolute;
+  content: "";
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(transparent, #13151F);
+}
+
 .hero-area-slide {
     background: #13151f;
     margin: 320px 15px 50px;
@@ -416,6 +431,9 @@ option {
 .hero-area-content > img {
     position: relative;
     margin-top: -120px;
+    object-fit: cover;
+    height: 550px;
+    border-radius: 10px 10px 0px 0px;
 }
 .hero-area-slider {
 	margin: auto;
@@ -563,6 +581,10 @@ hr {
 .single-portfolio-img {
 	overflow: hidden;
 	position: relative;
+
+
+
+
 }
 .single-portfolio-img:hover .popup-youtube i {
 	opacity: 1;
@@ -783,6 +805,17 @@ hr {
     background-size: cover;
 	padding: 280px 0 200px;
 }
+
+.breadcrumb-area:after {
+    position: absolute;
+  content: "";
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(transparent, #13151F);
+}
+
 .breadcrumb-area-content {
 	text-align: center;
 }
@@ -1295,3 +1328,32 @@ hr {
 /*--------------------------------------
 --------- Pre Loader Style END ---------
 ---------------------------------------*/
+
+.overlay_slide{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: black;
+    z-index: 2;
+    opacity: .6
+}
+
+.sround {
+    -webkit-box-shadow: 10px 10px 130px -9px rgba(0,0,0,0.55);
+-moz-box-shadow: 10px 10px 130px -9px rgba(0,0,0,0.55);
+box-shadow: 10px 10px 130px -9px rgba(0,0,0,0.55);
+border-radius: 10px;
+}
+
+.blur_poster{
+    filter: blur(2px);
+
+}
+
+.cropped { 
+    height: 270px;
+ }
+
