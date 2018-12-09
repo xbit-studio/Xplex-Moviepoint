@@ -26,13 +26,13 @@ Description: Online Movie,Vedio and TV Show HTML Template
 /*----------------------------------
 --------- THEME DEFAULT CSS --------
 ----------------------------------*/
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900');
+@import url('https://fonts.googleapis.com/css?family=Cairo:300,400,500,600,700,900');
 body {
     line-height: 24px;
     font-size: 14px;
     color: #b6b7b9;
 	background: #13151f;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Cairo', sans-serif;
     font-weight: 400;
     position: relative;
 }
@@ -301,8 +301,10 @@ input::-webkit-input-placeholder {
     grid-column: span 10;
 }
 .mainmenu {
-    text-align: right;
+    text-align: right;  
 }
+
+
 .mainmenu li {
     display: inline-block;
 	position: relative;
@@ -1348,12 +1350,19 @@ box-shadow: 10px 10px 130px -9px rgba(0,0,0,0.55);
 border-radius: 10px;
 }
 
+.shadow{
+
+    -webkit-box-shadow: 10px 10px 130px -9px rgba(0,0,0,0.55);
+    -moz-box-shadow: 10px 10px 130px -9px rgba(0,0,0,0.55);
+    box-shadow: 10px 10px 130px -9px rgba(0,0,0,0.55);
+}
+
 .blur_poster{
     filter: blur(2px);
 
 }
 
 .cropped { 
-    height: 270px;
+    height: 320px;
  }
 
