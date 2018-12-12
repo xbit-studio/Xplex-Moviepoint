@@ -210,7 +210,7 @@ textarea:focus {
 }
 .owl-dot.active {
     width: 28px;
-    background: #eb315a;
+    background: #268fdc;
 }
 .display-table {
     display: table;
@@ -222,8 +222,8 @@ textarea:focus {
     vertical-align: middle;
 }
 .theme-btn {
-	background: #eb315a;
-    border: 1px solid #eb315a;
+	background: #268fdc;
+    border: 1px solid #268fdc;
     color: #fff;
 	border-radius: 35px;
     padding: 5px 25px;
@@ -233,9 +233,9 @@ textarea:focus {
 	font-weight: 500;
 }
 .theme-btn:hover {
-    border: 1px solid #eb315a;
+    border: 1px solid #268fdc;
 	background: transparent;
-    color: #eb315a;
+    color: #268fdc;
 }
 .theme-btn2:hover,
 .theme-btn2 {
@@ -389,7 +389,7 @@ option {
 }
 
 .header-right ul li a:hover {
-	color: #eb315a;
+	color: #268fdc;
 }
 .header-right ul li {
     padding: 8px 0 0;
@@ -476,8 +476,8 @@ option {
     line-height: 45px;
     border-radius: 100%;
     max-width: 45px;
-    border: 2px solid #eb315a;
-    color: #eb315a;
+    border: 2px solid #268fdc;
+    color: #268fdc;
 }
 .pr-50 {
 	padding-right: 10px;
@@ -570,7 +570,7 @@ hr {
 }
 
 .portfolio-menu li.active::before,.portfolio-menu li:hover::before {
-    background: #eb315a;
+    background: #268fdc;
 }
 .portfolio-content h2 {
     margin-top: 20px;
@@ -696,9 +696,9 @@ hr {
 	left: 60px;
 	top: 0;
 	background: #f09819; /* Old browsers */
-	background: -moz-linear-gradient(-45deg, #f09819 0%, #ef8128 34%, #ec474c 64%, #eb315a 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(-45deg, #f09819 0%,#ef8128 34%,#ec474c 64%,#eb315a 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(135deg, #f09819 0%,#ef8128 34%,#ec474c 64%,#eb315a 100%);
+	background: -moz-linear-gradient(-45deg, #f09819 0%, #ef8128 34%, #ec474c 64%, #268fdc 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #f09819 0%,#ef8128 34%,#ec474c 64%,#268fdc 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #f09819 0%,#ef8128 34%,#ec474c 64%,#268fdc 100%);
 	padding: 20px;
 }
 .news-date h2 span {
@@ -781,7 +781,7 @@ hr {
 
 .widget button {
     background: transparent;
-    color: #eb315a;
+    color: #268fdc;
     border: none;
     padding: 0;
 }
@@ -808,7 +808,46 @@ hr {
 	padding: 280px 0 200px;
 }
 
+
+.breadcrumb-area1 {
+    position: relative;
+    background-image: url('../img/movie.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+	padding: 280px 0 200px;
+}
+
+.breadcrumb-area2 {
+    position: relative;
+    background-image: url('../img/movie1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+	padding: 280px 0 200px;
+}
+
 .breadcrumb-area:after {
+    position: absolute;
+  content: "";
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(transparent, #13151F);
+}
+
+.breadcrumb-area1:after {
+    position: absolute;
+  content: "";
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(transparent, #13151F);
+}
+
+.breadcrumb-area2:after {
     position: absolute;
   content: "";
   left: 0px;
@@ -853,11 +892,11 @@ hr {
     width: 55px;
     height: 2px;
     margin: auto;
-    background: #eb315a;
+    background: #268fdc;
 }
 
 .transformers-left {
-    color: #eb315a;
+    color: #268fdc;
     min-width: 100px;
 }
 
@@ -880,7 +919,7 @@ hr {
 
 .transformers-bottom span {
     display: block;
-    color: #eb315a;
+    color: #268fdc;
 }
 
 .transformers-bottom p {
@@ -916,7 +955,7 @@ hr {
     position: absolute;
     bottom: -2px;
     left: 0;
-    background: #eb315a;
+    background: #268fdc;
     content: "";
     width: 50px;
     height: 2px;
@@ -981,7 +1020,7 @@ hr {
 }
 .details-thumb > div:hover h4,
 .details-thumb > div:hover i {
-	color: #eb315a
+	color: #268fdc
 }
 .details-thumb-next {
     text-align: right;
@@ -1025,7 +1064,7 @@ hr {
 }
 
 .buy-ticket-box h4 {
-    color: #eb315a;
+    color: #268fdc;
     margin-bottom: 50px;
 }
 
@@ -1037,7 +1076,7 @@ hr {
 .buy-ticket-box h6 {
     color: #060606;
     text-align: center;
-    border-bottom: 5px solid #eb315a;
+    border-bottom: 5px solid #268fdc;
     padding-bottom: 8px;
 }
 
@@ -1049,8 +1088,8 @@ hr {
 
 .ticket-table-seat td.active,
 .ticket-table-seat td:hover {
-	background: #eb315a;
-	border-color: #eb315a;
+	background: #268fdc;
+	border-color: #268fdc;
 	color: #fff;
 }
 .ticket-table-seat td {
@@ -1154,7 +1193,7 @@ hr {
     position: absolute;
     right: 0;
     top: 0;
-    background: #eb315a;
+    background: #268fdc;
     font-size: 22px;
     color: #fff;
     width: 35px;
@@ -1366,3 +1405,9 @@ border-radius: 10px;
     height: 320px;
  }
 
+.cast {
+    object-fit: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
