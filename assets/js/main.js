@@ -47,8 +47,8 @@
 	heroSlider.owlCarousel({
 		loop:true,
 		dots: true,
-		autoplay: false,
-		autoplayTimeout:4000,
+		autoplay: true,
+		autoplayTimeout:3000,
 		nav: false,
 		items: 1,
 		responsive:{

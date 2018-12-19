@@ -225,7 +225,7 @@ textarea:focus {
 	background: #268fdc;
     border: 1px solid #268fdc;
     color: #fff;
-	border-radius: 35px;
+	border-radius: 10px;
     padding: 5px 25px;
     display: inline-block;
     font-size: 16px;
@@ -240,10 +240,10 @@ textarea:focus {
 .theme-btn2:hover,
 .theme-btn2 {
     color: #fff;
-	background: #963dad; /* Old browsers */
-	background: -moz-linear-gradient(top, #963dad 0%, #9c3db1 34%, #ba3fc4 65%, #c340ca 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, #963dad 0%,#9c3db1 34%,#ba3fc4 65%,#c340ca 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, #963dad 0%,#9c3db1 34%,#ba3fc4 65%,#c340ca 100%); 
+	background: #689ee6; /* Old browsers */
+	background: -moz-linear-gradient(top, #689ee6 0%, #2565c5 34%, #305482 65%, #27282b 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #689ee6 0%,#2565c5 34%,#305482 65%,#27282b 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #3b57ab 0%,#0c4498 34%,#00367b 65%,#002db3 100%);
 	border: none;
 }
 .flexbox-center {
@@ -582,7 +582,8 @@ hr {
 .video-area,
 .single-portfolio-img {
 	overflow: hidden;
-	position: relative;
+    position: relative;
+    
 
 
 
@@ -600,7 +601,8 @@ hr {
 }
 .video-area:hover img,
 .single-portfolio:hover img {
-	transform: scale(1.2);
+    transform: scale(.9);
+
 }
 .single-portfolio .review {
     margin-bottom: 0;
@@ -1378,8 +1380,8 @@ hr {
     left: 0;
     top: 0;
     background-color: black;
-    z-index: 2;
-    opacity: .6
+    z-index: 0;
+    opacity: 0
 }
 
 .sround {
@@ -1411,3 +1413,29 @@ border-radius: 10px;
     width: 50px;
     border-radius: 50%;
 }
+
+.video-container {
+    position: relative;
+    padding-bottom: 20.25%;
+    padding-top: 500px; height: 0; overflow: hidden;
+    margin-bottom: 0px;
+    }
+    
+    .video-container iframe,
+    .video-container object,
+    .video-container embed {
+    position: absolute;
+    top: -10%;
+    left: 0;
+    width: 100%;
+    height: 140%;
+    }
+    
+    .card:hover {
+        color: rgba(255,255,255,1);
+        box-shadow: 0 5px 40px rgba(166, 165, 167, 0.4); 
+        -moz-transition: all 0.2s ease-in;
+        -o-transition: all 0.2s ease-in;
+        -webkit-transition: all 0.2s ease-in;
+        transition: all 0.2s ease-in;
+      }

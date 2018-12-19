@@ -23,6 +23,8 @@
 		<link rel="stylesheet" type="text/css" href="assets/css/responsive.css" media="all" />
 		<!-- Pagination CSS -->
 		<link rel="stylesheet" type="text/css" href="assets/css/pagination.css" media="all" />
+		<!-- Accordion CSS -->
+		<link rel="stylesheet" type="text/css" href="assets/css/acc.css" media="all" />
 		<!--[if lt IE 9]>
 		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -144,16 +146,7 @@
 							
 						</div>
 					</div>
-					<div class="col-lg-6 text-center text-lg-right">
-					    <div class="portfolio-menu">
-							<ul>
-								<li data-filter="*" class="active">Latest</li>
-								<li data-filter=".soon">Comming Soon</li>
-								<li data-filter=".top">Top Rated</li>
-								<li data-filter=".released">Recently Released</li>
-							</ul>
-						</div>
-					</div>
+
 				</div>
 				<hr />
 				<div class="menu-area" style="padding-top:20px;">
@@ -182,15 +175,33 @@
 										<li><a href="movie-details.html">WWE Wrestling</a></li>
 										
 									</ul>
-                                </li>
+								</li>
+								<li><a href="index-2.html">Genres <i class="icofont icofont-simple-down"></i></a>
+                                	<ul style="z-index:5000; " class="shadow">
+
+										<li><a href="blog-details.html">English</a></li>
+										<li><a href="movie-details.html">Korean</a></li>
+										<li><a href="blog-details.html">Hindi</a></li>
+										<li><a href="movie-details.html">South Indian</a></li>
+										<li><a href="blog-details.html">Animation</a></li>
+										<li><a href="movie-details.html">Foreign Movies</a></li>
+										<li><a href="movie-details.html">3D Movies</a></li>
+									</ul>
+								</li>
 								 </ul>
 					    </div>
 					</div>
+					<div class="row">
+							<div class="col-lg-1">
+							
+
+								</div>
+					<div class="col-lg-10">
 					<div class="row portfolio-item">
 							<div class="col-lg-2 col-md-3 col-sm-6 soon released">
 								<div class="single-portfolio">
 									<div class="single-portfolio-img">
-										<img class="cropped" style="border-radius: 10px;" src="assets/img/posters/m1.jpg" alt="portfolio" />
+										<a href="movie-details.html"><img class="cropped" style="border-radius: 10px;" src="assets/img/posters/m1.jpg" alt="portfolio" /></a>
 										<a href="https://www.youtube.com/watch?v=RZXnugbhw_4" class="popup-youtube">
 											<i class="icofont icofont-ui-play"></i>
 										</a>
@@ -213,7 +224,7 @@
 							<div class="col-lg-2 col-md-3 col-sm-6 top">
 								<div class="single-portfolio">
 									<div class="single-portfolio-img">
-										<img class="cropped" style="border-radius:10px;"  src="assets/img/posters/m2.jpg" alt="portfolio" />
+										<a href="TV Series-details.html"><img class="cropped" style="border-radius:10px;"  src="assets/img/posters/m2.jpg" alt="portfolio" /></a>
 										<a href="https://www.youtube.com/watch?v=RZXnugbhw_4" class="popup-youtube">
 											<i class="icofont icofont-ui-play"></i>
 										</a>
@@ -465,10 +476,14 @@
 								</div>
 							</div>
 						</div>
+					</div>
+					<div class="col-lg-1">
+							
+
+					</div>
+				</div>
 			</div>
 		</section><!-- portfolio section end -->
-
-
 		<br>
 		<br>
 		<br>
@@ -714,6 +729,7 @@
 				</div>
 			</footer><!-- footer section end -->
 		<!-- jquery main JS -->
+		
 		<script src="assets/js/jquery.min.js"></script>
 		<!-- Bootstrap JS -->
 		<script src="assets/js/bootstrap.min.js"></script>
